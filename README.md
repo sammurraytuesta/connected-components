@@ -3,6 +3,28 @@ Takes an appropriately formatted txt file, translates an undirected, unweighted 
 
 [![made-with-java](https://img.shields.io/badge/Made%20with-Java-1f425f.svg)](https://www.python.org/) [![java-version](https://img.shields.io/badge/Java%20SE-14-blue.svg)](https://shields.io/) [![data-structures](https://img.shields.io/badge/Data%20Structures-Non–Linear-blue.svg)](https://shields.io/) [![macOS](https://svgshare.com/i/ZjP.svg)](https://svgshare.com/i/ZjP.svg) [![GitHub](https://badgen.net/badge/icon/github?icon=github&label)](https://github.com/sammurraytuesta)
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#ProgramSpecification">Program Specification</a>
+      <ul>
+        <li>
+          <a href="#InputFileSpecification">Input File Specification</a>
+          <ul>
+            <li><a href="#SampleInput">Sample Input</a></li>
+          </ul>
+        </li>
+        <li><a href="#AdjacencyMatrix">Adjacency Matrix</a></li>
+        <li><a href="#GraphVisualization">Graph Visualization</a></li>
+        <li><a href="#SampleInvocation">Sample Invocation</a></li>
+      </ul>
+    </li>
+    <li><a href="#Thank-You">Thank You!</a></li>
+  </ol>
+</details>
+
 ## Program Specification
 This program takes a single command line argument specifying a filename. The given file adheres to the format specified below. The program then reads the file to create an adjacency matrix representation of the graph and computes and prints the number of connected components in the graph.
 
@@ -17,7 +39,7 @@ The sample input.txt is provided and formatted accordingly:
 3 4
 1 2
 ```
-#### Adjacency Matrix    
+### Adjacency Matrix    
 |   | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
 | 0 | 0 | 1 | 0 | 0 | 0 |
@@ -26,10 +48,10 @@ The sample input.txt is provided and formatted accordingly:
 | 3 | 0 | 0 | 0 | 0 | 1 |
 | 4 | 0 | 0 | 0 | 1 | 0 | 
 
-#### Graph Visualization
+### Graph Visualization
 ![graph](graph.drawio.svg)
 
-#### Sample Invocation
+### Sample Invocation
 
 ```
 $ javac Components.java
