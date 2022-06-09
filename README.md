@@ -51,7 +51,7 @@ From the sample input.txt, the following adjacency matrix is created and used to
 | 4 | 0 | 0 | 0 | 1 | 0 | 
 
 ### Graph Visualization
-The following graph is a visual representation of the data provided. This visually shows the "connectedness" of the components. From this visualization we can see that the expected output is 2 (the number of structures formed due to node connections).
+The following graph is a visual representation of the data provided. This shows the "connectedness" of the components. From this visualization we can see that the expected output is 2 (the number of structures formed due to node connections).
 
 ![graph](graph.drawio.svg)
 
