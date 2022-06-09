@@ -19,6 +19,8 @@ Adjacency Matrix
 | 3 | 0 | 0 | 0 | 0 | 1 |
 | 4 | 0 | 0 | 0 | 1 | 0 |
 
+![graph](graph.drawio.svg)
+
 ```
 $ javac Components.java
 ```
