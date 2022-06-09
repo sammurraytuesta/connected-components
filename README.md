@@ -39,7 +39,9 @@ The sample input.txt is provided and formatted accordingly:
 3 4
 1 2
 ```
-### Adjacency Matrix    
+
+### Adjacency Matrix
+From the sample input.txt, the following adjacency matrix is created and used to determine the number of connected components in the graph using a depth first search graph analysis algorithm. 
 |   | 0 | 1 | 2 | 3 | 4 |
 |---|---|---|---|---|---|
 | 0 | 0 | 1 | 0 | 0 | 0 |
@@ -49,13 +51,17 @@ The sample input.txt is provided and formatted accordingly:
 | 4 | 0 | 0 | 0 | 1 | 0 | 
 
 ### Graph Visualization
+The following graph is a visual representation of the data provided. This visually shows the "connectedness" of the components. From this visualization we can see that the expected output is 2 (the number of structures formed due to node connections).
+
 ![graph](graph.drawio.svg)
 
 ### Sample Invocation
-
+Compile and run the program with a single command line argument specifying a filename. The program will return the number of connected components. In this case the output is 2 given the sample input.txt file.
 ```
 $ javac Components.java
 $ java Components input.txt
 2
 ```
+
 ## Thank You!
+Enjoy Connected Components!
