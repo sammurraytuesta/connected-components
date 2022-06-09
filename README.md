@@ -8,17 +8,17 @@ Takes an appropriately formatted txt file, translates an undirected, unweighted 
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#ProgramSpecification">Program Specification</a>
+      <a href="#Program-Specification">Program Specification</a>
       <ul>
         <li>
-          <a href="#InputFileSpecification">Input File Specification</a>
+          <a href="#Input-File-Specification">Input File Specification</a>
           <ul>
-            <li><a href="#SampleInput">Sample Input</a></li>
+            <li><a href="#Sample-Input">Sample Input</a></li>
           </ul>
         </li>
-        <li><a href="#AdjacencyMatrix">Adjacency Matrix</a></li>
-        <li><a href="#GraphVisualization">Graph Visualization</a></li>
-        <li><a href="#SampleInvocation">Sample Invocation</a></li>
+        <li><a href="#Adjacency-Matrix">Adjacency Matrix</a></li>
+        <li><a href="#Graph-Visualization">Graph Visualization</a></li>
+        <li><a href="#Sample-Invocation">Sample Invocation</a></li>
       </ul>
     </li>
     <li><a href="#Thank-You">Thank You!</a></li>
